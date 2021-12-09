@@ -20,6 +20,6 @@ setup(
     python_requires='>=3',
     data_files=[
     ('/usr/lib/systemd/system', ['scripts/vulcanStatus.service'])],
-    install_requires=["mysql-connector-python",'configparser'],
+    install_requires=["mysql-connector-python-rf",'configparser'],
     scripts=['scripts/vulcanStatus.pyc']
 )
