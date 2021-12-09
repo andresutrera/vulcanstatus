@@ -1,0 +1,12 @@
+    [Unit]
+    Description=VulcanMonitor Service
+    After=multi-user.target
+
+    [Service]
+    WorkingDirectory=/usr/local/bin
+    Type=idle
+    ExecStart=/usr/bin/python3 vulcanStatus.pyc
+    #Restart=always
+
+    [Install]
+    #WantedBy=multi-user.target
