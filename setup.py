@@ -1,3 +1,5 @@
+#!/usr/bin/python3
+# -*- coding: utf-8 -*-
 from distutils.core import setup
 
 with open("README.md", "r", encoding="utf-8") as fh:
@@ -6,7 +8,7 @@ with open("README.md", "r", encoding="utf-8") as fh:
 setup(
     name="vulcanStatus",
     version="0.0.1",
-    author="Andrés Utrera",
+    author="Andres Utrera",
     author_email="andres.utrera@usach.cl",
     description="Vulcan Online Monitoring Tool",
     long_description=long_description,
